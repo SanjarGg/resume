@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Montserrat&family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+
+.navbar{
+  height: 75px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+/* Header */
+
+.header{
+  padding: 100px;
+  display: flex;
+}
+
+.header__info{
+  padding-top: 10px;
+  font-weight: 700;
+  padding-top: 40px;
+  font-size: 75px;
+  line-height: 80px;
+ font-family: 'Gothic A1', sans-serif;
+}
+
+.header__subinfo{
+  font-weight: 400;
+  color: red;
+  padding-top: 50px;
+  font-size: 25px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header__display{
+  display: block;
+}
+
+/*  IMG */
+.img__photo{
+  display: flex;
+}
+.navbar__item img{
+  width: 50px;
+}
+
+.container{
+  background: whitesmoke;
+}
+
+.navbar__left {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
